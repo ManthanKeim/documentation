@@ -9,7 +9,7 @@ tox is a generic virtualenv management and test command line tool you can use fo
 
 taken from `tox.readthedocs.io <https://tox.readthedocs.io/en/latest/>`__.
 
-Basic example. 
+Basic example.
 ----------------------------------------------------------------
 First, install tox with pip install tox. Then put basic information about your project and the test
 environments you want your project to run in into a tox.ini file residing right next to your setup.py file:
