@@ -26,7 +26,7 @@ environments you want your project to run in into a tox.ini file residing right 
     # whatever extra steps before testing might be necessary
     pytest          # or any other test runner that you might use
     
-Note:
+.. Note ::
 
 You can also try generating a tox.ini file automatically, by running tox-quickstart 
 and then answering a few simple questions.
