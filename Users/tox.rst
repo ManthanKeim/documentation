@@ -6,7 +6,6 @@ tox is a generic virtualenv management and test command line tool you can use fo
 - running your tests in each of the environments, configuring your test tool of choice
 - acting as a frontend to Continuous Integration servers, greatly reducing boilerplate and merging CI and shell-based testing.
 
-
 taken from `tox.readthedocs.io <https://tox.readthedocs.io/en/latest/>`__.
 
 Basic example.
@@ -28,7 +27,7 @@ environments you want your project to run in into a tox.ini file residing right 
     
 .. Note ::
 
-You can also try generating a tox.ini file automatically, by running tox-quickstart 
+You can also try generating a tox.ini file automatically, by running tox-quickstart
 and then answering a few simple questions.
 
 To sdist-package, install and test your project against Python2.7 and Python3.6, just type:
