@@ -1,5 +1,5 @@
 What is Tox?
-===============
+== == == == == == == =
 tox is a generic virtualenv management and test command line tool you can use for:
 
 - checking your package installs correctly with different Python versions and interpreters
