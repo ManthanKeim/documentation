@@ -11,8 +11,8 @@ for:
 - acting as a frontend to Continuous Integration servers, greatly reducing
   boilerplate and merging CI and shell-based testing.
 
-
-taken from `tox.readthedocs.io <https://tox.readthedocs.io/en/latest/>`__.
+taken from `tox.readthedocs.io
+<https://tox.readthedocs.io/en/latest/>`_.
 
 Basic example.
 ----------------------------------------------------------------
@@ -26,7 +26,6 @@ right next to your setup.py file:
     # content of: tox.ini , put in same dir as setup.py
     [tox]
     envlist = py27,py36
-
     [testenv]
     deps = pytest # install pytest in the virtualenv where commands
     will be executed
@@ -34,11 +33,12 @@ right next to your setup.py file:
     # whatever extra steps before testing might be necessary
     pytest # or any other test runner that you might use
     
+.. Note ::
+
 Note
 
 You can also try generating a tox.ini file automatically, by running
 tox-quickstart and then answering a few simple questions.
-
 To sdist-package, install and test your project against Python2.7 and 
 Python3.6, just type:
 
@@ -55,11 +55,8 @@ re-install dependencies.
 You also might want to checkout tox configuration and usage examples to get
 some more ideas.
 
-.. _tox_sections:
-
 Sections
 --------
-
 The ``tox.ini`` file has a number of top level sections defined by ``[ ]``
 and subsections within those. For complete documentation
 on all subsections inside of a tox section please refer to the tox
@@ -87,9 +84,6 @@ documentation.
   ``tox.ini`` and reuse commands while tweaking certain sections per testing
   scenario.
 
-
-.. _tox_environments:
-
 Modifying or Adding environments
 --------------------------------
 
@@ -116,6 +110,5 @@ To ensure that all the new tests that are created by adding the luminous
 
 Note
 
-
 For more information about Tox configuration, consult the
-`official documentation <https://tox.readthedocs.io/en/latest/>`__.
+`official documentation <https://tox.readthedocs.io/en/latest/>`_.
